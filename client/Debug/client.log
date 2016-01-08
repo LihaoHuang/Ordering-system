@@ -1,18 +1,26 @@
-﻿已經開始建置於 2016/1/8 下午 11:03:01。
-     1>節點 2 (ClCompile 目標) 上的專案 "C:\Users\user\Documents\Visual Studio 2010\Projects\Ordering-system\client\client.vcxproj"。
-     1>ClCompile:
-         d:\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt client.c
-         client.c
-     1>c:\users\user\documents\visual studio 2010\projects\ordering-system\client\client.c(21): warning C4996: 'gets': This function or variable may be unsafe. Consider using gets_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 d:\microsoft visual studio 10.0\vc\include\stdio.h(277) : 請參閱 'gets' 的宣告
-     1>c:\users\user\documents\visual studio 2010\projects\ordering-system\client\client.c(35): warning C4996: 'gets': This function or variable may be unsafe. Consider using gets_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 d:\microsoft visual studio 10.0\vc\include\stdio.h(277) : 請參閱 'gets' 的宣告
-     1>c:\users\user\documents\visual studio 2010\projects\ordering-system\client\client.c(36): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 d:\microsoft visual studio 10.0\vc\include\stdio.h(325) : 請參閱 'sscanf' 的宣告
-     1>c:\users\user\documents\visual studio 2010\projects\ordering-system\client\client.c(79): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 d:\microsoft visual studio 10.0\vc\include\stdio.h(304) : 請參閱 'scanf' 的宣告
-     1>專案 "C:\Users\user\Documents\Visual Studio 2010\Projects\Ordering-system\client\client.vcxproj" (ClCompile 目標) 建置完成。
+﻿已經開始建置於 2016/1/9 上午 12:35:17。
+     1>節點 2 (build 目標) 上的專案 "C:\Users\user\Documents\Visual Studio 2010\Projects\Ordering-system\client\client.vcxproj"。
+     1>InitializeBuildStatus:
+         正在變更時間戳記 "Debug\client.unsuccessfulbuild"。
+       ClCompile:
+         所有輸出都是最新的。
+       ManifestResourceCompile:
+         所有輸出都是最新的。
+       Link:
+         D:\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\user\Documents\Visual Studio 2010\Projects\Ordering-system\client\Debug\client.exe" /INCREMENTAL /NOLOGO ws2_32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\client.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\user\Documents\Visual Studio 2010\Projects\Ordering-system\client\Debug\client.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\user\Documents\Visual Studio 2010\Projects\Ordering-system\client\Debug\client.lib" /MACHINE:X86 Debug\client.exe.embed.manifest.res
+         Debug\client.obj
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\client.exe.embed.manifest" /manifest Debug\client.exe.intermediate.manifest
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\client.exe.embed.manifest.res" Debug\client_manifest.rc 
+       LinkEmbedManifest:
+         D:\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\user\Documents\Visual Studio 2010\Projects\Ordering-system\client\Debug\client.exe" /INCREMENTAL /NOLOGO ws2_32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\client.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\user\Documents\Visual Studio 2010\Projects\Ordering-system\client\Debug\client.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\user\Documents\Visual Studio 2010\Projects\Ordering-system\client\Debug\client.lib" /MACHINE:X86 Debug\client.exe.embed.manifest.res
+         Debug\client.obj
+         client.vcxproj -> C:\Users\user\Documents\Visual Studio 2010\Projects\Ordering-system\client\Debug\client.exe
+       FinalizeBuildStatus:
+         正在刪除檔案 "Debug\client.unsuccessfulbuild"。
+         正在變更時間戳記 "Debug\client.lastbuildstate"。
+     1>專案 "C:\Users\user\Documents\Visual Studio 2010\Projects\Ordering-system\client\client.vcxproj" (build 目標) 建置完成。
 
 建置成功。
 
-經過時間 00:00:00.19
+經過時間 00:00:00.33

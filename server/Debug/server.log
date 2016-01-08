@@ -1,4 +1,4 @@
-﻿已經開始建置於 2016/1/8 下午 11:58:06。
+﻿已經開始建置於 2016/1/9 上午 12:35:06。
      1>節點 2 (build 目標) 上的專案 "C:\Users\user\Documents\Visual Studio 2010\Projects\Ordering-system\server\server.vcxproj"。
      1>InitializeBuildStatus:
          正在變更時間戳記 "Debug\server.unsuccessfulbuild"。
@@ -9,9 +9,18 @@
        Link:
          D:\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\user\Documents\Visual Studio 2010\Projects\Ordering-system\server\Debug\server.exe" /INCREMENTAL /NOLOGO ws2_32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\server.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\user\Documents\Visual Studio 2010\Projects\Ordering-system\server\Debug\server.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\user\Documents\Visual Studio 2010\Projects\Ordering-system\server\Debug\server.lib" /MACHINE:X86 Debug\server.exe.embed.manifest.res
          Debug\server.obj
-     1>LINK : fatal error LNK1123: 轉換成 COFF 時失敗: 檔案無效或損毀
-     1>專案 "C:\Users\user\Documents\Visual Studio 2010\Projects\Ordering-system\server\server.vcxproj" (build 目標) 建置完成 -- 失敗。
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\server.exe.embed.manifest" /manifest Debug\server.exe.intermediate.manifest
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\server.exe.embed.manifest.res" Debug\server_manifest.rc 
+       LinkEmbedManifest:
+         D:\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\user\Documents\Visual Studio 2010\Projects\Ordering-system\server\Debug\server.exe" /INCREMENTAL /NOLOGO ws2_32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\server.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\user\Documents\Visual Studio 2010\Projects\Ordering-system\server\Debug\server.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\user\Documents\Visual Studio 2010\Projects\Ordering-system\server\Debug\server.lib" /MACHINE:X86 Debug\server.exe.embed.manifest.res
+         Debug\server.obj
+         server.vcxproj -> C:\Users\user\Documents\Visual Studio 2010\Projects\Ordering-system\server\Debug\server.exe
+       FinalizeBuildStatus:
+         正在刪除檔案 "Debug\server.unsuccessfulbuild"。
+         正在變更時間戳記 "Debug\server.lastbuildstate"。
+     1>專案 "C:\Users\user\Documents\Visual Studio 2010\Projects\Ordering-system\server\server.vcxproj" (build 目標) 建置完成。
 
-建置失敗。
+建置成功。
 
-經過時間 00:00:00.35
+經過時間 00:00:00.76
