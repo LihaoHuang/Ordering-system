@@ -1,4 +1,4 @@
-﻿已經開始建置於 2016/1/11 下午 05:14:58。
+﻿已經開始建置於 2016/1/11 下午 08:06:25。
      1>節點 2 (build 目標) 上的專案 "C:\Users\user\Documents\Visual Studio 2010\Projects\Ordering-system\client\client.vcxproj"。
      1>InitializeBuildStatus:
          由於指定了 "AlwaysCreate"，因此正在建立 "Debug\client.unsuccessfulbuild"。
@@ -21,7 +21,7 @@
                  d:\microsoft visual studio 10.0\vc\include\stdio.h(304) : 請參閱 'scanf' 的宣告
      1>c:\users\user\documents\visual studio 2010\projects\ordering-system\client\client.c(134): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
                  d:\microsoft visual studio 10.0\vc\include\stdio.h(304) : 請參閱 'scanf' 的宣告
-     1>c:\users\user\documents\visual studio 2010\projects\ordering-system\client\client.c(157): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>c:\users\user\documents\visual studio 2010\projects\ordering-system\client\client.c(160): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
                  d:\microsoft visual studio 10.0\vc\include\stdio.h(304) : 請參閱 'scanf' 的宣告
      1>c:\users\user\documents\visual studio 2010\projects\ordering-system\client\client.c(20): warning C4101: 'parameterport' : 未參考的區域變數
      1>c:\users\user\documents\visual studio 2010\projects\ordering-system\client\client.c(17): warning C4101: 'port' : 未參考的區域變數
@@ -30,6 +30,7 @@
        Link:
          D:\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\user\Documents\Visual Studio 2010\Projects\Ordering-system\client\Debug\client.exe" /INCREMENTAL /NOLOGO ws2_32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\client.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\user\Documents\Visual Studio 2010\Projects\Ordering-system\client\Debug\client.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\user\Documents\Visual Studio 2010\Projects\Ordering-system\client\Debug\client.lib" /MACHINE:X86 Debug\client.exe.embed.manifest.res
          Debug\client.obj
+         LINK : 最後的累加連結找不到或未建置 C:\Users\user\Documents\Visual Studio 2010\Projects\Ordering-system\client\Debug\client.exe，正在執行完整連結
        Manifest:
          C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\client.exe.embed.manifest" /manifest Debug\client.exe.intermediate.manifest
          所有輸出都是最新的。
@@ -43,4 +44,4 @@
 
 建置成功。
 
-經過時間 00:00:00.36
+經過時間 00:00:00.34
