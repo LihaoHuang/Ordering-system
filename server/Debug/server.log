@@ -1,9 +1,14 @@
-﻿已經開始建置於 2016/1/9 上午 12:35:06。
+﻿已經開始建置於 2016/1/11 下午 05:17:57。
      1>節點 2 (build 目標) 上的專案 "C:\Users\user\Documents\Visual Studio 2010\Projects\Ordering-system\server\server.vcxproj"。
      1>InitializeBuildStatus:
-         正在變更時間戳記 "Debug\server.unsuccessfulbuild"。
+         由於指定了 "AlwaysCreate"，因此正在建立 "Debug\server.unsuccessfulbuild"。
        ClCompile:
-         所有輸出都是最新的。
+         D:\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt server.c
+         server.c
+     1>c:\users\user\documents\visual studio 2010\projects\ordering-system\server\server.c(78): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\microsoft visual studio 10.0\vc\include\stdio.h(325) : 請參閱 'sscanf' 的宣告
+     1>c:\users\user\documents\visual studio 2010\projects\ordering-system\server\server.c(16): warning C4101: 'retVal' : 未參考的區域變數
+     1>c:\users\user\documents\visual studio 2010\projects\ordering-system\server\server.c(15): warning C4101: 'list' : 未參考的區域變數
        ManifestResourceCompile:
          所有輸出都是最新的。
        Link:
@@ -11,10 +16,9 @@
          Debug\server.obj
        Manifest:
          C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\server.exe.embed.manifest" /manifest Debug\server.exe.intermediate.manifest
-         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\server.exe.embed.manifest.res" Debug\server_manifest.rc 
+         所有輸出都是最新的。
        LinkEmbedManifest:
-         D:\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\user\Documents\Visual Studio 2010\Projects\Ordering-system\server\Debug\server.exe" /INCREMENTAL /NOLOGO ws2_32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\server.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\user\Documents\Visual Studio 2010\Projects\Ordering-system\server\Debug\server.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\user\Documents\Visual Studio 2010\Projects\Ordering-system\server\Debug\server.lib" /MACHINE:X86 Debug\server.exe.embed.manifest.res
-         Debug\server.obj
+         所有輸出都是最新的。
          server.vcxproj -> C:\Users\user\Documents\Visual Studio 2010\Projects\Ordering-system\server\Debug\server.exe
        FinalizeBuildStatus:
          正在刪除檔案 "Debug\server.unsuccessfulbuild"。
@@ -23,4 +27,4 @@
 
 建置成功。
 
-經過時間 00:00:00.76
+經過時間 00:00:00.37
